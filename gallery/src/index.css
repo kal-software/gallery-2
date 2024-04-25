@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-400;
+}
+
+.slick-prev{
+@apply bg-lime-700 px-4 shadow-md shadow-black  text-white rounded lg:ml-96 mb-2  mt-12 inline-block md:ml-40 sm:ml-40
+}
+.slick-next{
+  @apply bg-lime-700 shadow-md shadow-black rounded lg:ml-auto px-6  lg:mr-96 text-white md:ml-auto md:mr-40 sm:ml-auto sm:mr-40
+}
